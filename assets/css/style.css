@@ -16,21 +16,21 @@
   /* Colours — all combinations meet WCAG AA 4.5:1 minimum */
   --colour-bg:            #ffffff;
   --colour-bg-alt:        #f4f1ec;
-  --colour-bg-dark:       #1a3d2b;
-  --colour-bg-mid:        #2d5f46;
-  --colour-bg-accent:     #e8f0eb;
+  --colour-bg-dark:       #1a5c35;
+  --colour-bg-mid:        #2e7d4f;
+  --colour-bg-accent:     #e6f4ea;
   --colour-text:          #111111;
   --colour-text-light:    #ffffff;
   --colour-text-muted:    #3d3d3d;
-  --colour-link:          #005a2b;
+  --colour-link:          #1a6b3a;
   --colour-link-visited:  #4b006e;
-  --colour-link-hover:    #003519;
+  --colour-link-hover:    #0e4423;
   --colour-border:        #767676;
   --colour-border-light:  #c8c2b8;
   --colour-focus:         #ffbf00;
   --colour-focus-text:    #000000;
   --colour-error:         #d4000f;
-  --colour-success:       #005a2b;
+  --colour-success:       #1a6b3a;
   --colour-warning-bg:    #fff4cc;
   --colour-warning-border:#b38600;
 
@@ -168,7 +168,7 @@ dd { margin-left: var(--space-xl); margin-bottom: var(--space-xs); }
 /* ---- HEADER ---- */
 .site-header {
   background-color: var(--colour-bg-dark);
-  background-image: linear-gradient(rgba(26,61,43,0.80), rgba(26,61,43,0.80)),
+  background-image: linear-gradient(rgba(26,92,53,0.80), rgba(26,92,53,0.80)),
                     url('../torver-village.jpg');
   background-size: cover;
   background-position: center 40%;
@@ -211,7 +211,7 @@ dd { margin-left: var(--space-xl); margin-bottom: var(--space-xs); }
 .site-header__subtitle {
   font-family: var(--font-ui);
   font-size: var(--size-sm);
-  color: #a8d4b8;
+  color: #8fd4a8;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin: 0;
@@ -220,7 +220,7 @@ dd { margin-left: var(--space-xl); margin-bottom: var(--space-xs); }
 /* ---- NAVIGATION ---- */
 .site-nav {
   background-color: var(--colour-bg-mid);
-  border-bottom: 1px solid #1a3d2b;
+  border-bottom: 1px solid #1a5c35;
 }
 
 .site-nav__inner {
@@ -313,7 +313,7 @@ main { flex: 1; }
 
 .notice--info   { border-left-color: var(--colour-bg-mid);  background: var(--colour-bg-accent); }
 .notice--warn   { border-left-color: var(--colour-warning-border); background: var(--colour-warning-bg); }
-.notice--legal  { border-left-color: var(--colour-bg-dark); background: #edf2ee; }
+.notice--legal  { border-left-color: var(--colour-bg-dark); background: #e6f4ea; }
 
 .notice p:last-child { margin-bottom: 0; }
 
@@ -448,7 +448,7 @@ tr:hover td { background: var(--colour-bg-accent); }
 .nav-card__desc {
   font-family: var(--font-ui);
   font-size: var(--size-sm);
-  color: #a8d4b8;
+  color: #8fd4a8;
   display: block;
 }
 
@@ -588,12 +588,12 @@ button[type="submit"]:focus-visible {
 /* ---- FOOTER ---- */
 .site-footer {
   background-color: var(--colour-bg-dark);
-  background-image: linear-gradient(rgba(26,61,43,0.85), rgba(26,61,43,0.85)),
+  background-image: linear-gradient(rgba(26,92,53,0.85), rgba(26,92,53,0.85)),
                     url('../torver-village.jpg');
   background-size: cover;
   background-position: center 60%;
   background-repeat: no-repeat;
-  color: #a8d4b8;
+  color: #8fd4a8;
   border-top: 4px solid var(--colour-focus);
   margin-top: auto;
 }
@@ -622,7 +622,7 @@ button[type="submit"]:focus-visible {
 .site-footer__section li {
   font-family: var(--font-ui);
   font-size: var(--size-sm);
-  color: #a8d4b8;
+  color: #8fd4a8;
   margin-bottom: var(--space-xs);
   max-width: none;
 }
@@ -653,7 +653,7 @@ button[type="submit"]:focus-visible {
   border-top: 1px solid #2d5f46;
   font-family: var(--font-ui);
   font-size: var(--size-sm);
-  color: #6aaa86;
+  color: #52b87a;
 }
 
 /* ---- BREADCRUMB ---- */
