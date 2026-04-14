@@ -168,6 +168,11 @@ dd { margin-left: var(--space-xl); margin-bottom: var(--space-xs); }
 /* ---- HEADER ---- */
 .site-header {
   background-color: var(--colour-bg-dark);
+  background-image: linear-gradient(rgba(26,61,43,0.80), rgba(26,61,43,0.80)),
+                    url('../torver-village.jpg');
+  background-size: cover;
+  background-position: center 40%;
+  background-repeat: no-repeat;
   color: var(--colour-text-light);
   border-bottom: 4px solid var(--colour-focus);
 }
@@ -582,7 +587,12 @@ button[type="submit"]:focus-visible {
 
 /* ---- FOOTER ---- */
 .site-footer {
-  background: var(--colour-bg-dark);
+  background-color: var(--colour-bg-dark);
+  background-image: linear-gradient(rgba(26,61,43,0.85), rgba(26,61,43,0.85)),
+                    url('../torver-village.jpg');
+  background-size: cover;
+  background-position: center 60%;
+  background-repeat: no-repeat;
   color: #a8d4b8;
   border-top: 4px solid var(--colour-focus);
   margin-top: auto;
